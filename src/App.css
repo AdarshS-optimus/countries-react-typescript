@@ -32,7 +32,7 @@
 }
 
 .card-img, .card-img-top {
-  height: 140px;
+  height: 135px;
   border-top-left-radius: 10px !important;
   border-top-right-radius: 10px !important;
 }
@@ -58,6 +58,12 @@ a:hover {
 
 .padding-custom {
   padding: 7px;
+}
+
+@media only screen and (max-width: 575px) {
+  .card-img, .card-img-top {
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 450px) {
