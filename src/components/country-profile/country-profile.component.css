@@ -1,0 +1,36 @@
+.default-color {
+    background: #ffffff;
+}
+
+.country-profile-section, .country-profile-list-section {
+    background: #ffffff;
+    cursor: default !important;
+}
+
+.country-profile-section:hover, .country-profile-list-section:hover {
+    box-shadow: none;
+    transform: none;
+}
+
+.country-profile-list-section {
+    border: 1px solid rgba(0,0,0,.125) !important;
+    border-radius: 10px !important;
+}
+
+.detail-card {
+    font-size: 15px !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-img-height {
+    height: auto;
+    border-radius: 10px;
+}
+
+.center-image {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
